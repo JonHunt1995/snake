@@ -1,0 +1,30 @@
+#screen {
+  background: black;
+  padding: 10vmin;
+}
+#game {
+  background: rgb(129, 166, 78);
+  width: 80vmin;
+  height: 80vmin;
+  margin: 10vmin auto;
+  aspect-ratio: 1;
+  position: relative;
+}
+
+.snake-segment {
+  position: absolute;
+  width: 5%;
+  height: 5%;
+  background: black;
+  border: 1px solid rgb(129, 166, 78);
+}
+
+#dot {
+  position: absolute;
+  width: 5%;
+  height: 5%;
+  background: white;
+  top: 50%;
+  left: 30%;
+  border-radius: 100%;
+}
